@@ -29,18 +29,20 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px 0;
     width: 300px;
     padding: 10px 10px;
-    min-height: 400px;
+    min-height: 500px;
 }
-
+.bandiera{
+    width: 30px;
+}
 span{
     width: 90%;
 }
 
-img{
+.locandina{
     width: 200px;
     height: 300px;
     object-fit: contain;
