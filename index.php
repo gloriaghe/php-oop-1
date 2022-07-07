@@ -26,22 +26,22 @@ $ps_love_you = new Movie("P.S. I love you", 126, 2007, "Commedia romantica", "ps
             <div>
                 <h2><?= $ritorno_futuro->name ?></h2>
                 <img src="img/<?= $ritorno_futuro->img ?>" alt="<?= $ritorno_futuro->name ?>">
-                <span>Il film dura <?= $ritorno_futuro->lenght ?> minuti, è uscito nel anno <?= $ritorno_futuro->year ?> e il genere è: <?= $ritorno_futuro->genre ?>.</span>
+                <span>Il film dura <?= $ritorno_futuro->lunghezza($ritorno_futuro-> lenght, '%02d ore e %02d minuti') ?>, è uscito nel anno <?= $ritorno_futuro->year ?> e il genere è: <?= $ritorno_futuro->genre ?>.</span>
             </div>
             <div>
                 <h2><?= $harry_Potter_Filosofale->name ?></h2>
                 <img src="img/<?= $harry_Potter_Filosofale->img ?>" alt="<?= $harry_Potter_Filosofale->name ?>">
-                <span>Il film dura <?= $harry_Potter_Filosofale->lenght ?> minuti, è uscito nel anno <?= $harry_Potter_Filosofale->year ?> e il genere è: <?= $harry_Potter_Filosofale->genre ?>.</span>
+                <span>Il film dura <?= $harry_Potter_Filosofale->lunghezza($harry_Potter_Filosofale-> lenght, '%02d ore e %02d minuti') ?>, è uscito nel anno <?= $harry_Potter_Filosofale->year ?> e il genere è: <?= $harry_Potter_Filosofale->genre ?>.</span>
             </div>
             <div>
                 <h2><?= $mamma_ho_perso_aereo->name ?></h2>
                 <img src="img/<?= $mamma_ho_perso_aereo->img ?>" alt="<?= $mamma_ho_perso_aereo->name ?>">
-                <span>Il film dura <?= $mamma_ho_perso_aereo->lenght ?> minuti, è uscito nel anno <?= $mamma_ho_perso_aereo->year ?> e il genere è: <?= $mamma_ho_perso_aereo->genre ?>.</span>
+                <span>Il film dura <?= $mamma_ho_perso_aereo->lunghezza($mamma_ho_perso_aereo-> lenght, '%02d ore e %02d minuti')  ?>, è uscito nel anno <?= $mamma_ho_perso_aereo->year ?> e il genere è: <?= $mamma_ho_perso_aereo->genre ?>.</span>
             </div>
             <div>
                 <h2><?= $ps_love_you->name ?></h2>
                 <img src="img/<?= $ps_love_you->img ?>" alt="<?= $ps_love_you->name ?>">
-                <span>Il film dura <?= $ps_love_you->lenght ?> minuti, è uscito nel anno <?= $ps_love_you->year ?> e il genere è: <?= $ps_love_you->genre ?>.</span>
+                <span>Il film dura <?= $ps_love_you->lunghezza($ps_love_you-> lenght, '%02d ore e %02d minuti') ?>, è uscito nel anno <?= $ps_love_you->year ?> e il genere è: <?= $ps_love_you->genre ?>.</span>
             </div>
         </section>
 </main>

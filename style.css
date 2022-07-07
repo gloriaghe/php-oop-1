@@ -29,9 +29,11 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     margin: 20px 0;
     width: 300px;
     padding: 10px 10px;
+    min-height: 400px;
 }
 
 span{
@@ -40,5 +42,7 @@ span{
 
 img{
     width: 200px;
+    height: 300px;
+    object-fit: contain;
     margin: 10px 0;
 }
