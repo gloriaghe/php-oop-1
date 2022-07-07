@@ -7,8 +7,7 @@ class Movie
     public $year;
     public $genre;
     public $img;
-    public $lunghezza = 0;
-
+    
     public function __construct(string $name, int $lenght, int $year, string $genre, string $img)
     {
         $this->name = $name;
