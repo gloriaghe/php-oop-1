@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.707);
+    color: white;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    color: greenyellow;
+}
+
+h2{
+    color: goldenrod;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+span{
+    width: 90%;
+}
+
+img{
+    width: 200px;
+    margin: 10px 0;
+}
