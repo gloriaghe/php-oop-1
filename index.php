@@ -5,7 +5,7 @@ $harry_Potter_Filosofale = new Movie("Harry Potter e la pietra Filosofale", 152,
 $mamma_ho_perso_aereo = new Movie("Mamma ho perso l'aereo", 103, 1990, "Commedia", "mamma.jpg", "Inglese");
 $ritorno_futuro = new Movie("Ritorno al futuro", 116, 1985, "Commedia, Sci-fi", "ritorno.jpg", "Inglese");
 $ps_love_you = new Movie("P.S. I love you", 126, 2007, "Commedia romantica", "ps.jpg", "Inglese");
-$la_vita_bella = new Movie("La vita è bella", 122, 1997,"Guerra, Drammatico", "vita.jpg", "Italiana")
+$la_vita_bella = new Movie("La vita è bella", 122, 1997,"Guerra, Drammatico", "vita.jpg", "Italiana");
 
 
 ?>
